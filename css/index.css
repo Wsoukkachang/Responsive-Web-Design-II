@@ -65,6 +65,9 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+html { 
+    font-size: 62.5%; 
+}
 
 h1 {
 	line-height: 65px;
@@ -80,7 +83,7 @@ h2 {
   }
   
   .container {
-	width: 1024px;
+	max-width: 880px;
 	min-height: 1px;
 	margin: 0 auto;
   }
