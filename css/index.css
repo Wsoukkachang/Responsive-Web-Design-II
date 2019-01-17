@@ -70,7 +70,8 @@ html {
 }
 
 h1 {
-	line-height: 65px;
+    line-height: 65px;
+    margin: auto;
   }
 
 h2 {
@@ -94,7 +95,7 @@ h2 {
   }
   
   nav {
-	margin-left: 58px;
+	margin-left: 0.07%;
 	margin-top: 10px;
   }
   
@@ -135,11 +136,11 @@ h2 {
   }
   
   .demand {
-	display: flex;
 	flex-direction: column;
 	align-items: space-evenly;
-  text-transform: uppercase;
-	text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
   }
   
   h1 {
@@ -156,8 +157,6 @@ h2 {
   }
   
   main, footer {
-	margin-left: 75px;
-	margin-right: 75px;
   }
   
  .features, .about, h2, .services, .product, .vision {
@@ -166,11 +165,11 @@ h2 {
   }
   
   .features {
-	width: 420px;
+	width: 45%;
   }
   
   .about {
-	width: 420px;
+	width: 45%;
 	margin-left: 20px;
   }
   
@@ -180,28 +179,28 @@ h2 {
   }
   
   .middle-img {
-	margin-left: 1px;
+
   }
   
 	.bottom-section {
 		display: flex;
 		margin-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 30px;
 		border-bottom: 1px solid black;
 		margin-bottom: 10px;
   }
   
   .services {
-	width: 33%;
+	width: 30%;
   }
   
   .product {
-	width: 280px;
+	width: 30%;
 	margin-left: 10px;
   }
   
   .vision {
-	width: 280px;
+	width: 30%;
 	margin-left: 10px;
   }
 
@@ -226,14 +225,13 @@ h2 {
 	flex-flow: wrap;
 	vertical-align: top;
 	font-size: 1.4rem;
-	height: 80px;
   }
 
 	longparagraph{
 	display: flex;
 	text-align: left;
 	font-size: 1.4rem;
-	width:  880px;
+	width:  100%;
 	height: 50px;
 	margin-left: 50px;
 	align-items: stretch;
@@ -252,7 +250,7 @@ h2 {
 	padding-bottom: 40px;
 	padding-left: 20px;
 	height: 200px;
-	width: 400px;
+	width: 50%;
 	background-color: rgb(221, 221, 221);
 	border: 1px solid black;
   }
@@ -268,7 +266,7 @@ h2 {
 	text-align: left;
 	font-size: 1.4rem;
 	height: 100px;
-	width: 400px;
+	width: 50%;
   }
 
 	.list{
@@ -280,7 +278,7 @@ h2 {
 	
 	ul li {
 	margin-bottom: 2px;
-	width: 200px;
+	width: 25%;
 	list-style-type: circle;
   }
 
@@ -310,7 +308,7 @@ h2 {
 		margin-top: 30px;
 		margin-left: 50px;
 		height: 350px;
-		width: 880px;
+		width: 100%;
 		border-top: 1px solid black;                                           
 	}
 
@@ -337,12 +335,9 @@ h2 {
         display: flex;
         flex-direction: column-reverse;
         flex-wrap: wrap;
-        width: 800px;
+        width: 100%;
     }
 
-    #header-row {
-
-    }
 
     #logo {
         padding-left: 220px;
@@ -350,13 +345,13 @@ h2 {
 	}
 
 	.top-section{
-        width: 700px;
+        width: 100%;
     }
 		
     nav {
         display: flex; 
         justify-content: space-evenly;
-        width: 700px;
+        width: 100%;
     }
 
     .demand {
@@ -366,8 +361,9 @@ h2 {
         justify-content: center;
         text-transform: uppercase;
         text-align: center;
-        width: 400px;
+        width: 50%;
         margin: 0 auto;
+        padding-top: 0px;
       }
 
     .circle-img {
@@ -375,42 +371,42 @@ h2 {
 		}
 		
 	main, footer {
-		width: 700px;
+		width: 100%;
 		}
 
     .top-section{
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     .features {
-        width: 300px;
+        width: 40%;
     } 
 
     .about {
-            width: 300px;
+            width: 40%;
             margin-left: 50px;
         }
 
 	.middle-img{
-		width: 700px;
+		width: 100%;
     }
     
     .services p{
         display: flex;
         flex-wrap: wrap;
-        width: 200px;
+        width: 100%;
     }
 
     .product p{
         display: flex;
         flex-wrap: wrap;
-        width: 200px;
+        width: 100%;
     }
 
     .vision p{
         display: flex;
         flex-wrap: wrap;
-        width: 200px;
+        width: 100%;
     }
 
 	.bottom-section {
@@ -433,7 +429,7 @@ h2 {
 		flex-direction: column-reverse;
 		align-items: center;
         justify-content: center;
-        width: 500px;
+        width: 100%;
     }
     
 	nav {
@@ -441,7 +437,7 @@ h2 {
 	flex-direction: column;
 	align-content: center;
 	justify-content: center;
-    width: 480px;}
+    width: 100%;}
     
     nav a {
 	display: flex;
@@ -451,7 +447,7 @@ h2 {
 	padding: 20px 0;
 	color: rgb(188,188,188);
 	font-size: 2.0rem;
-	width: 480px;
+	width: 100%;
 	border-top: 1px solid rgb(188,188,188);
 	}
 	
@@ -465,66 +461,67 @@ h2 {
 	}
 	
 	img#logo {
+        width: 100%;
         margin-left: 0px;
         padding-left: 0px;
-        margin-bottom: 20px;
-		padding-bottom: 10px;
+
 	}
 
 	.top-section {
-        width: 480px;
+        width: 100%;
         display: flex;
     }
 
     .features {
         display: flex;
         flex-wrap: wrap;
-        width: 500px;
+        width: 100%;
 
     }
 
     .about {
         display: flex;
         flex-wrap: wrap;
-        width: 500px;
+        width: 100%;
         margin-left: 0px;
     }
 
 
 	.middle-img {
-		width: 500px;
+		width: 100%;
 	}
 
     .top-section {
-        width: 500px;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 	.bottom-section {
         display: flex;
         flex-direction: column;
-		width: 500px;
+        flex-wrap: wrap;
+		width: 100%;
 		margin-top: 10px;
 		padding-bottom: 10px;
 		border-bottom: 1px solid black;margin-bottom: 10px;
     }
     
     .services p{
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
-        width: 500px;
     }
 
     .product p{
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
-        width: 500px;
     }
 
     .vision p{
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
-        width: 500px;
     }
 
     .vision, .product {
@@ -532,9 +529,28 @@ h2 {
     }
 
     main, footer {
-        width: 500px;
+        width: 100%;
         margin-left: 0px;
         margin-right: 0px;
     }
+    
 
+    h1{
+        margin: 0;
+    }
+
+    #header-row {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        margin-bottom: 65px;
+    }
+
+    p{
+        width: 100%;
+    }
+
+    .demand {
+        padding-top: 50px;
+      }
 }
