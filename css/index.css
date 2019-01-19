@@ -69,34 +69,39 @@ html {
     font-size: 62.5%; 
 }
 
+.container {
+	max-width: 880px;
+	margin: 0 auto;
+  }
+
 h1 {
-    line-height: 65px;
+    line-height: 85%;
     margin: auto;
   }
 
 h2 {
   font-weight: bold;
   }
+
+h3 {
+  font-weight: bold;
+}
   
   a {
 	color: inherit;
 	text-decoration: none;
   }
   
-  .container {
-	max-width: 880px;
-	min-height: 1px;
-	margin: 0 auto;
-  }
-  
   header {
       display: flex;
-	margin-top: 27px;
+      align-content: space-between;
+      margin-top: 2%;
   }
   
   nav {
-	margin-left: 0.07%;
-	margin-top: 10px;
+    width: 100%;
+    margin-left: 0.07%;
+    margin-top: 2%;
   }
   
   nav a {
@@ -105,34 +110,33 @@ h2 {
   }
   
   #nav-product {
-	margin-left: 50px;
+	margin-left: 10%;
   }
   
   #nav-vision {
-	margin-left: 50px;
+	margin-left: 10%;
   }
   
   #nav-features {
-	margin-left: 50px;
+	margin-left: 10%;
   }
   
   #nav-about {
-	margin-left: 50px;
+	margin-left: 10%;
   }
   
   #nav-contact {
-	margin-left: 50px;
+	margin-left: 10%;
   }
   
-  img#logo {
-	margin-left: 100px;
+  .circle-img {
+    width: 75%;
   }
-  
   #header-row {
 	display: flex;
 	justify-content: space-evenly;
-	margin-top: 70px;
-	margin-bottom: 65px;
+	margin-top: 10%;
+	margin-bottom: 10%;
   }
   
   .demand {
@@ -140,23 +144,28 @@ h2 {
 	align-items: space-evenly;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 10%;
   }
   
   h1 {
-	font-size: 8.0rem;
+	font-size: 7.5rem;
+  }
+
+  .circle-img {
+    width: 35%;
+}
+  
+  .middle-img {
+    margin-bottom: 1%;
   }
   
   .get-started {
 	display: inline-block;
   text-transform: capitalize;
 	border: 1px solid black;
-	padding: 8px 40px;
-	margin-top: 10px;	
+	padding: 2% 15%;
+	margin-top: 2%;	
   text-align: center;  
-  }
-  
-  main, footer {
   }
   
  .features, .about, h2, .services, .product, .vision {
@@ -170,45 +179,49 @@ h2 {
   
   .about {
 	width: 45%;
-	margin-left: 20px;
+	margin-left: 5%;
   }
   
+  .features p {
+    margin-bottom: 5%;
+  }
+    
+  .about p {
+    margin-bottom: 5%;
+  }
+
   .top-section {
 	border-top: 1px solid black;
-	padding-top: 30px;
-  }
-  
-  .middle-img {
-
+	padding-top: 3%;
   }
   
 	.bottom-section {
 		display: flex;
-		margin-top: 10px;
-		padding-bottom: 30px;
+		margin-top: 2%;
+		padding-bottom: 4%;
 		border-bottom: 1px solid black;
-		margin-bottom: 10px;
+		margin-bottom: 4%;
   }
   
   .services {
-	width: 30%;
+	width: 100%;
   }
   
   .product {
-	width: 30%;
-	margin-left: 10px;
+	width: 100%;
+	margin-left: 5%;
   }
   
   .vision {
-	width: 30%;
-	margin-left: 10px;
+	width: 100%;
+	margin-left: 5%;
   }
 
   .services-header-img{
 	display: flex;
-	margin-left: 50px;
+	margin-left: 20%;
 	justify-content: center;
-	padding: 5px;
+	padding: 5%;
   }
 
   .learn-more {
@@ -217,7 +230,7 @@ h2 {
 	text-transform: capitalize;
 	background-color: rgb(255, 255, 255);
 	border: 1px solid black;
-	padding: 5px 30px;
+	padding: 5% 10%;
   }
 
   p {
@@ -232,24 +245,24 @@ h2 {
 	text-align: left;
 	font-size: 1.4rem;
 	width:  100%;
-	height: 50px;
-	margin-left: 50px;
+	height: 10%;
+	margin-left: 8%;
 	align-items: stretch;
-	margin-bottom: 10px;
-	padding-bottom: 70px;
+	margin-bottom: 5%;
+	padding-bottom: 10%;
 	border-bottom: 1px solid black;
 }
 
 #middle-section .digital-design, .ux-ui, .digital-marketing, .web-development, .ios-development , .android-development {
 	display: flex;
 	display: inline-block;
-	margin-top: 20px;
-	margin-left: 50px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 40px;
-	padding-left: 20px;
-	height: 200px;
+	margin-top: 10%;
+	margin-left: 20%;
+	padding-top: 12%;
+	padding-right: 10%;
+	padding-bottom: 20%;
+	padding-left: 10%;
+	height: 30%;
 	width: 50%;
 	background-color: rgb(221, 221, 221);
 	border: 1px solid black;
@@ -265,7 +278,7 @@ h2 {
 	flex-wrap: wrap;
 	text-align: left;
 	font-size: 1.4rem;
-	height: 100px;
+	height: 15%;
 	width: 50%;
   }
 
@@ -277,7 +290,7 @@ h2 {
 	}
 	
 	ul li {
-	margin-bottom: 2px;
+	margin-bottom: 2%;
 	width: 25%;
 	list-style-type: circle;
   }
@@ -291,23 +304,23 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 20px;
+	margin-top: 3%;
 	font-size: 1.4rem;
 	}
 	
 	h2{
-		margin-left: 50px;
+		margin-left: 5%;
 	}
 
 	.index-logo {
-		margin-left: 150px;
+		margin-left: 15%;
 	}
  
 	.footer-services {
 		display: flex;
-		margin-top: 30px;
-		margin-left: 50px;
-		height: 350px;
+		margin-top: 5%;
+		margin-left: 10%;
+		height: 40%;
 		width: 100%;
 		border-top: 1px solid black;                                           
 	}
@@ -315,14 +328,12 @@ h2 {
 	img.services-info-img {
 	display: flex;
 	justify-content: flex-end;
-	margin-left: 50px;
-	margin-top: 20px;
-	height: 285px;
-		}
-
+	margin-left: 10%;
+	margin-top: 5%;
+	height: 20%;
+    }
 
 /* At 800px (Tablet) and below do the following: */
-
 
 @media screen and (max-width: 800px) { 
 
@@ -339,9 +350,9 @@ h2 {
     }
 
 
-    #logo {
-        padding-left: 220px;
-        margin-bottom: 20px;
+    img#logo {
+      margin-left: 38%;
+      margin-bottom: 10%;
 	}
 
 	.top-section{
@@ -372,10 +383,14 @@ h2 {
 		
 	main, footer {
 		width: 100%;
-		}
+    }
+    
+    h1 {
+      font-size: 7rem;
+     }
 
     .top-section{
-        margin-bottom: 20px;
+        margin-bottom: 2%;
     }
 
     .features {
@@ -384,7 +399,7 @@ h2 {
 
     .about {
             width: 40%;
-            margin-left: 50px;
+            margin-left: 10%;
         }
 
 	.middle-img{
@@ -410,14 +425,23 @@ h2 {
     }
 
 	.bottom-section {
-		padding-bottom: 40px;
-        border-bottom: 1px solid black;
-        margin-bottom: 10px;
+		padding-bottom: 5%;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
 	}
     
+  .get-started {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5% 50%;
+    margin-top: 5%;	
+    font-size: 1rem;
+    text-align: center;  
+    }
 }
 
 /* At 500px (Phone) and below do the following: */
+
 @media screen and (max-width: 500px){
 	.container {
         max-width: 500px;
@@ -444,7 +468,7 @@ h2 {
 	text-align: center;
 	align-items: center;
 	justify-content: space-around;
-	padding: 20px 0;
+	padding: 5% 0;
 	color: rgb(188,188,188);
 	font-size: 2.0rem;
 	width: 100%;
@@ -452,16 +476,16 @@ h2 {
 	}
 	
 	#nav-services, #nav-product,  #nav-vision,  #nav-features, #nav-about, #nav-about, #nav-contact {
-	margin-left: -30px;
+	margin-left: -10%;
 	}
 
 	#nav-contact {
-		padding-bottom: 20px;
 		border-bottom: 1px solid rgb(188,188,188);
 	}
 	
 	img#logo {
         width: 100%;
+        margin: 0 auto;
         margin-left: 0px;
         padding-left: 0px;
 
@@ -476,6 +500,7 @@ h2 {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        margin-bottom: 5%;
 
     }
 
@@ -484,6 +509,7 @@ h2 {
         flex-wrap: wrap;
         width: 100%;
         margin-left: 0px;
+        margin-bottom: 2%;
     }
 
 
@@ -501,27 +527,27 @@ h2 {
         flex-direction: column;
         flex-wrap: wrap;
 		width: 100%;
-		margin-top: 10px;
-		padding-bottom: 10px;
+		margin-top: 5%;
+		padding-bottom: 5%;
 		border-bottom: 1px solid black;margin-bottom: 10px;
     }
     
     .services p{
-        width: 90%;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 5%;
     }
 
     .product p{
-        width: 90%;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 5%;
     }
 
     .vision p{
-        width: 90%;
         display: flex;
         flex-wrap: wrap;
+        margin-bottom: 5%;
     }
 
     .vision, .product {
@@ -532,18 +558,21 @@ h2 {
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
+        margin-bottom: 5%;
     }
-    
 
     h1{
         margin: 0;
+        margin-top: 30%;
+        font-size: 7.5rem;
     }
 
     #header-row {
         display: flex;
         justify-content: space-evenly;
+        margin:0 auto;
         margin-top: 0px;
-        margin-bottom: 65px;
+        margin-bottom: 15%;
     }
 
     p{
@@ -551,6 +580,48 @@ h2 {
     }
 
     .demand {
-        padding-top: 50px;
+        padding-top: 0px;
       }
+      
+      #nav-services {
+        margin-left: 0px;
+        }
+
+      #nav-product {
+        margin-left: 0px;
+        }
+        
+        #nav-vision {
+        margin-left: 0px;
+        }
+        
+        #nav-features {
+        margin-left: 0px;
+        }
+        
+        #nav-about {
+        margin-left: 0px;
+        }
+        
+        #nav-contact {
+        margin-left: 0px;
+        }
+        
+        img#logo {
+        margin-left: 0px;
+        }
+
+        copyright {
+          margin-top: 5%;
+        }
+
+        .get-started {
+          display: inline-block;
+          border: 1px solid black;
+          padding: 5% 45%;
+          margin-top: 5%;	
+          font-size: 1rem;
+          text-align: center;  
+          }
+          
 }
